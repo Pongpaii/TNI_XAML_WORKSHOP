@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Page A"
+    x:Class="tni2213211861.NavPg1">
+    <StackLayout BackgroundColor="#abdbe3" Padding="20">
+        <Label Text="Page A" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Brown" Margin="20"/>
+        <Button Text="Open Pg.B" x:Name="gotobbtn" Background="#063970" TextColor="White" CornerRadius="20"/>
+        <Button Text="Open Pg.C" x:Name="gotoCbtn" Background="lightyellow" CornerRadius="20"/>
+        <Button Text="Open GaME" x:Name="gotoGamebtn" Background="lightyellow" CornerRadius="20"/>
+        <Button Text="Open Tab" x:Name="gotoTabbtn" Background="lightyellow" CornerRadius="20"/>
+    </StackLayout>
+</ContentPage>
+

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    IconImageSource="icon.png"
+    x:Class="tni2213211861.Homepage">
+    <ScrollView>
+    <StackLayout BackgroundColor="Khaki" Padding="10" >
+
+        <Label Text="Hello" BackgroundColor="LightBlue" TextColor="Brown"  HorizontalTextAlignment="Center" FontSize="20" Padding="20" x:Name="showLabel"></Label>
+        <Entry Placeholder="FIRSTname"  Keyboard="Text" x:Name="unameEntry"></Entry>
+        <Entry Placeholder="SURNAME" x:Name="Surname"></Entry>
+        <Button Text="send" BackgroundColor="LightCoral" TextColor=" white" x:Name="sendBtn"></Button>
+
+        <Slider Minimum="0" Maximum="100" x:Name="Ageslider"> </Slider>
+
+        <Stepper Minimum="0" Maximum="10" x:Name="Carstepper"/>
+        <SearchBar />
+        <Switch IsToggled="True" x:Name="Opensw"/>
+        <Picker Title="PLEASE SELECT" x:Name="Picker"><Picker.Items ><x:String>white</x:String> <x:String>black</x:String> </Picker.Items></Picker>
+        <ProgressBar Progress="0.75"/>
+        <ActivityIndicator IsRunning="True"/>
+        <Editor HeightRequest="80"></Editor>
+     
+        <Frame CornerRadius="30" Padding="0" HasShadow="True"><BoxView Color="LightGreen"/></Frame>
+
+        <DatePicker x:Name="DATEPICKER"/>
+        <TimePicker/>
+        <Image Source="pfp.png" WidthRequest="50" HeightRequest="50"/>
+        <WebView Source="https://www.youtube.com/watch?v=VdbMhbBlDI0" HeightRequest="200" WidthRequest="320" />
+        
+    </StackLayout>
+
+    </ScrollView>
+    
+
+</ContentPage>
+

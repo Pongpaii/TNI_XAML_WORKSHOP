@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tni2213211861.MainPage">
+
+  <StackLayout BackgroundColor="LightBlue" Padding="10" >
+<Button Text="Profile" BackgroundColor="Cyan" HorizontalOptions="Center" WidthRequest="100" x:Name="pfbtn" Clicked="pfbtn_Clicked" CornerRadius="20"/>
+      <Label Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+             type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+             essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+             LineBreakMode="TailTruncation" Padding="20" Margin="20"
+             />
+  </StackLayout>
+
+</ContentPage>
+
+
+<!--smth -->

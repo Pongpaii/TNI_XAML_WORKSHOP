@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="tni2213211861.Pfpage">
+
+<StackLayout BackgroundColor="LightGoldenrodYellow" Padding="10" Margin="10" Spacing="10">
+
+    
+    
+
+    <StackLayout BackgroundColor="LightBlue" Padding="10" Margin="10" Spacing="10"><Image Source="pfp.png" Margin="10" WidthRequest=" 100" HeightRequest="100"></Image>
+    <Label Text="PONGPAI" FontSize="20" BackgroundColor="White" HorizontalTextAlignment="Center"></Label></StackLayout>
+
+
+    <StackLayout BackgroundColor="LightYellow" Padding="10" Margin="10" Spacing="10" >
+
+        <Entry Placeholder="username" HorizontalOptions="FillAndExpand" ></Entry>
+        <Entry Placeholder="password" HorizontalOptions="FillAndExpand" IsPassword="True"></Entry>
+    </StackLayout>
+
+    <StackLayout BackgroundColor="LightGreen">
+        <Label Text="recent video from poip" HorizontalTextAlignment="Center"></Label>
+        <Image Source="recent.jpg"></Image>
+
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" BackgroundColor="LightSalmon">
+   
+        <Image Source="icon.png"></Image>
+         <Image Source="icon.png"></Image>
+        <Image Source="icon.png"></Image>
+        <Image Source="icon.png"></Image>
+        <Image Source="icon.png"></Image>
+
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" BackgroundColor="LightSalmon">
+   
+        <Frame Background="red" WidthRequest="50" HeightRequest="50"><Image Source="pfp.png"></Image></Frame>
+        <Label Text="PONGPAI" FontSize="10"  VerticalTextAlignment="Center"> </Label>
+
+    </StackLayout>
+   
+
+</StackLayout>
+
+</ContentPage>

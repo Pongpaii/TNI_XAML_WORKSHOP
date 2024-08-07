@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="tni2213211861.SpPage">
+    <ContentPage.Content>
+        <StackLayout Background="white" Padding="20">
+            <Label Text="Result" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" x:Name="totallb"></Label>
+            <Entry Placeholder="Num1" Keyboard="Numeric" x:Name="num1et"></Entry>
+            <Entry Placeholder="Num2" Keyboard="Numeric" x:Name="num2et"></Entry>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Button Text="+" HorizontalOptions="StartAndExpand" x:Name="plus"/>
+                 <Button Text="-" HorizontalOptions="StartAndExpand" x:Name="minus"/>
+                 <Button Text="x" HorizontalOptions="StartAndExpand" x:Name="multiply"/>
+                 <Button Text="/" HorizontalOptions="StartAndExpand" x:Name="divide"/>
+            </StackLayout>
+           
+            <StackLayout Orientation="Horizontal" >
+                <Image Source="btn"/>
+                <Image Source="btn2"/><Image Source="but1"/><Image Source="but2"/><Image Source="icon1"/><Image Source="icon2"/>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

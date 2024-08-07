@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Game"
+    x:Class="tni2213211861.tabpg1">
+  <StackLayout BackgroundColor="White" >
+
+      
+      <StackLayout HorizontalOptions="Center">
+      <Label Text="Login" HorizontalOptions="Center" Padding="20" FontSize="25" FontAttributes="Bold" x:Name="Showlabel"></Label>
+      </StackLayout>
+      <Image Source="pfp.png" WidthRequest="100" HeightRequest="100"></Image>
+      <StackLayout Padding="50,0,50,0">
+
+          <Entry Placeholder="Enter Name" x:Name="unameEntry"></Entry>
+          <Entry Placeholder="Student Id" x:Name="stunum"></Entry>
+
+          <Button Text="send" BackgroundColor="DarkBlue" TextColor=" white" x:Name="sendBtn"></Button>
+          
+          <Label Text="Forgotten your account?" HorizontalTextAlignment="Center" TextColor="DarkBlue" FontSize="15"/>
+          <Label Text="or" HorizontalTextAlignment="Center" FontSize="15"/>
+
+          <Button Text="Create new account" BackgroundColor="LimeGreen" TextColor=" white" ></Button>
+      </StackLayout>
+
+
+    
+
+  </StackLayout>
+</ContentPage>
+

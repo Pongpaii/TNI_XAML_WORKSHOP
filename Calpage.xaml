@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="tni2213211861.Calpage">
+
+    <StackLayout BackgroundColor="Black" >
+        <Frame Margin="10" HeightRequest="50"></Frame>
+         <StackLayout  Margin="20" >
+           <StackLayout  Margin="10" Orientation="Horizontal" >
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label  Text="C" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="+/-" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="%" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"><Label TextColor="White"  Text="÷" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+          </StackLayout>
+            <StackLayout  Margin="10" Orientation="Horizontal" >
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="7" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="8" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="9" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"><Label TextColor="White"  Text="x" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+          </StackLayout>
+        <StackLayout  Margin="10" Orientation="Horizontal" >
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="4" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="5" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="6" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"><Label TextColor="White"   Text="-" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+          </StackLayout>
+          <StackLayout  Margin="10" Orientation="Horizontal" >
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="1" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="2" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="3" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"><Label TextColor="White"  Text="+" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+          </StackLayout>
+          <StackLayout  Margin="10" Orientation="Horizontal" >
+            <Frame CornerRadius="50" BackgroundColor="White" HorizontalOptions="FillAndExpand"><Label Text="0" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="white" HorizontalOptions="End" WidthRequest="50"><Label Text="." HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+            <Frame CornerRadius="50" BackgroundColor="Orange" HorizontalOptions="End" WidthRequest="50"><Label TextColor="White"  Text="=" HorizontalTextAlignment="Center" FontSize="20"/></Frame>
+    
+          </StackLayout>
+
+        </StackLayout>
+    </StackLayout>
+
+
+
+</ContentPage>
+
